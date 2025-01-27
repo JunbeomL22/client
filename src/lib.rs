@@ -12,6 +12,8 @@ pub type BookPrice = i64;
 pub type OrderId = u64;
 pub type TimeStamp = UnixNano;
 pub type InstId = StaticId;
+pub type OrderCount = u32;
+pub type BookYield = i32;
 
 pub use order::core::OrderCore;
 
